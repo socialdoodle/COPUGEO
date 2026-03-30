@@ -1,6 +1,11 @@
 {
   "name": "copugeo",
   "version": 2,
+  "functions": {
+    "api/audit.js": {
+      "maxDuration": 60
+    }
+  },
   "routes": [
     {
       "src": "/api/audit",
