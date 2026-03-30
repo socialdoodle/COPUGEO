@@ -1,0 +1,14 @@
+{
+  "name": "copugeo",
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/audit",
+      "dest": "/api/audit.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
